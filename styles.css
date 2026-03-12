@@ -227,8 +227,9 @@ input[type="search"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   background-color: #E2E8F0;
-  gap: 100px;
+  gap: 30px;
   align-self: start;
+  row-gap: 60px;
 }
 
 .Announcements {
@@ -238,7 +239,8 @@ input[type="search"] {
 .main-content > .card {
   background-color: white;
   border-radius: 20px;
-  max-width: 500px;
+  
+  max-width: 520px;
   max-height: 300px;
   /* display: grid;
   grid-template-columns: 0.2fr 4fr; */
@@ -303,12 +305,16 @@ input[type="search"] {
   background-color: white;
   grid-row: 1 / 2;
   /* gap: 20px; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: start;
+  row-gap: 28px;
   border-radius: 15px;
-  padding: 40px 60px 40px;
+  padding: 40px 40px 40px;
 }
 
 .Updates > .Announcements > .card > p:nth-child(2):nth-child(-n+6),
@@ -330,18 +336,18 @@ input[type="search"] {
   background-color: white;
   grid-column:  2 / 3;
   grid-row: 3 / 4;
-  min-width: 400px;
+  min-width: 200px;
   min-height: 200px;
-  max-width: 500px;
+  max-width: 350px;
   max-height: 300px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .Updates > .Announcements {
   min-width: 200px;
   min-height: 300px;
-  max-width: 430px;
-  max-height: 450px ;
+  max-width: 350px;
+  max-height: 420px ;
 }
 
 .title-announcement {
@@ -358,7 +364,8 @@ input[type="search"] {
   font-weight: 700;
   font-size: 20px;
   padding-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 60px;
+  
 }
 
 
@@ -369,9 +376,35 @@ input[type="search"] {
 
 .Announcements > .card >.title {
   font-weight: 700;
-  font-size: large;
+  font-size: medium;
 }
 
 .Updates > .Announcements > .card > p:nth-child(2n) {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: small;
+}
+
+.updates-icon img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+
+.Trending > .card {
+  
+}
+
+.first-trending,
+.second-trending,
+.third-trending,
+.fourth-trending {
+  display: flex;
+  gap: 18px;
+
+}
+
+.description {
+  font-weight: 300;
 }

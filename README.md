@@ -1,6 +1,6 @@
 ### Admin-Dashboard
 
-# A responsive admin dashboard built with HTML and CSS, focused on practising CSS Grid and Flexbox layout techniques.
+## A responsive admin dashboard built with HTML and CSS, focused on practising CSS Grid and Flexbox layout techniques.
 
 ## Features
 
@@ -9,7 +9,7 @@
 - Project cards grid displaying personal projects
 - Announcements and trending users panel
 
-## WHat I Learnt
+## What I Learnt
 
 - How fr units divide available space and when to use auto instead
 - Why min-height is better than height for responsive containers
@@ -20,7 +20,9 @@
 - Why unconstrained images and icons can blow out a layout
 
 ## Project Structure
-```admin-dashboard/
+``` 
+admin-dashboard/
 ├── index.html
 ├── styles.css
-└── images/```
+└── images/
+```
